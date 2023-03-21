@@ -1,0 +1,33 @@
+.itemSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonsSection {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttonsSection button {
+
+    padding: 0px 0.3em;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 10%;
+
+}
+
+.checkBox {
+    cursor: pointer;
+}
+
+.buttonsSection button:hover {
+    opacity: 75%;
+}
+
+.checkItem {
+    color: rgb(24, 135, 226);
+}

@@ -1,0 +1,7 @@
+.TodoSearch {
+    padding: 0.25em 0.5em;
+}
+
+.TodoSearch::placeholder {
+    color: rgb(186, 186, 186);
+}
